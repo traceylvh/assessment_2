@@ -1,0 +1,5 @@
+CREATE TABLE animals (
+    id SERIAL PRIMARY KEY,
+    animal_type varchar(80) NOT NULL,
+    qty integer
+  );
